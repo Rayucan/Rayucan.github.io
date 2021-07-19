@@ -1,0 +1,75 @@
+# Sidebar Avatar
+avatar:
+  enable: true
+  url: https://cdn.jsdelivr.net/gh/Rayucan/imageCloud/data/20210515231431.jpg
+  # If true, the avatar would be dispalyed in circle.
+  rounded: true
+  # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: false
+    emoji: 😎
+    message: Gaze into abyss.
+
+# UI
+banner:
+  enable: true
+  title: Rayの云端小屋
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+cursor:
+  enable: true
+  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
+
+reward:
+  enable: false
+
+footer:
+  since: 2020
+
+social:
+  - name: GitHub
+    link: https://github.com/Rayucan
+    icon: icon-github-line
+    color: "#181717"
+  - name: QQ
+    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
+    link: https://wpa.qq.com/msgrd?v=3&uin=775972516&site=qq&menu=yes
+    icon: icon-qq-line
+    color: "#12B7F5"
+  - name: E-Mail
+    link: mailto:775972516@qq.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=362729060
+    icon: icon-netease-cloud-music-line
+    color: "#C10D0C"
+  - name: 知乎
+    link: https://www.zhihu.com/people/ray-63-72
+    icon: icon-zhihu-line
+    color: "#0084FF"
+  - name: 豆瓣
+    link: https://www.douban.com/people/226098990/
+    icon: icon-douban-line
+    color: "#007722"
+
+pages:
+
+codeblock:
+  copy_btn: true
+  prismjs:
+    light: default
+    dark: tomorrow
+
+favicon: /favicon.ico
